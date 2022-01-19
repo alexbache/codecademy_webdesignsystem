@@ -1,0 +1,94 @@
+:root{
+    --imperial-red: #e63946ff;
+    --honeydew: #f1faeeff;
+    --powder-blue: #a8dadcff;
+    --celadon-blue: #457b9dff;
+    --prussian-blue: #1d3557ff; 
+    --darkest-blue:#01161e;
+}
+
+html{
+    height:100%;
+}
+
+*{
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+font-family: 'Outfit', sans-serif;
+}
+
+
+li{
+    display: inline-block;
+    text-align: center;
+    padding: 10px 36px;
+    color: whitesmoke;
+
+}
+
+nav{
+    background-color: var(--darkest-blue);
+    padding:20px 0;
+}
+
+body{
+    /* background-color: var(--honeydew); */
+    background: linear-gradient(180deg, hsla(105, 55%, 96%, 1) 0%, hsla(178, 13%, 54%, 1) 100%);
+    height:100%;
+    margin: 0;
+
+
+}
+
+main{
+    margin-top: 40px;
+
+}
+
+
+h1{
+    text-align: center;
+    color: var(--prussian-blue);
+
+    font-family: 'Merriweather', serif;
+    padding:50px;
+
+}
+
+div{
+    margin: 0 10px 25px;
+    padding:40px 0px;
+
+    border: solid white 4px;
+}
+
+div h2{
+    transform: rotate(-10deg);
+    text-align: center;
+    font-size: 70px;
+    padding-bottom: 14px;
+}
+
+#imperialred{
+    background-color: var(--imperial-red);
+    color: white;
+}
+
+
+
+#powderblue{
+    background-color: var(--powder-blue);
+    color:white;
+}
+
+#celadonblue{
+    background-color: var(--celadon-blue);
+    color:white;
+}
+
+#prussianblue{
+    background-color: var(--prussian-blue);
+    color:White;
+}
