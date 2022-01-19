@@ -1,0 +1,3 @@
+This is a codecademy exercise to come up with a website design system or style guide...
+
+Went for something bold, punchy
